@@ -32,71 +32,92 @@ interface CartItem extends Product {
 const products: Product[] = [
   {
     id: 1,
-    name: 'Перчатки боксёрские AGGRESSION',
-    price: 4990,
-    category: 'Боксёрская экипировка',
-    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/a89cd6c8-37c0-4cf1-84bd-ff703954584a.jpg',
-    rating: 4.8,
+    name: 'Футболка компрессионная PRO',
+    price: 2490,
+    category: 'Футболки',
+    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/13c59537-ce62-4615-96ef-3c3568ce48f5.jpg',
+    rating: 4.9,
     reviews: [
-      { id: 1, author: 'Михаил', rating: 5, text: 'Отличные перчатки! Качество на высоте, удобно сидят на руке.', date: '2025-10-15' },
-      { id: 2, author: 'Александр', rating: 4, text: 'Хорошее качество за свои деньги. Рекомендую!', date: '2025-10-10' }
+      { id: 1, author: 'Дмитрий', rating: 5, text: 'Отличная компрессия, материал дышащий. Беру вторую!', date: '2025-10-20' },
+      { id: 2, author: 'Игорь', rating: 5, text: 'Супер! Сидит как влитая, качество материала превосходное.', date: '2025-10-18' }
     ]
   },
   {
     id: 2,
-    name: 'Футболка компрессионная PRO',
-    price: 2490,
-    category: 'Одежда',
+    name: 'Шорты тренировочные SPORT',
+    price: 1990,
+    category: 'Шорты',
     image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/13c59537-ce62-4615-96ef-3c3568ce48f5.jpg',
-    rating: 4.9,
+    rating: 4.6,
     reviews: [
-      { id: 3, author: 'Дмитрий', rating: 5, text: 'Отличная компрессия, материал дышащий. Беру вторую!', date: '2025-10-20' },
-      { id: 4, author: 'Игорь', rating: 5, text: 'Супер! Сидит как влитая, качество материала превосходное.', date: '2025-10-18' }
+      { id: 3, author: 'Максим', rating: 5, text: 'Удобные, не стесняют движений. Рекомендую!', date: '2025-10-25' }
     ]
   },
   {
     id: 3,
-    name: 'Протеин ВЕПРЬ 2.5кг',
-    price: 3990,
-    category: 'Спортивное питание',
-    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/ba811f91-c46b-4d96-a419-feefa168f03e.jpg',
-    rating: 4.7,
+    name: 'Брюки тактические DEFENDER',
+    price: 4490,
+    category: 'Брюки',
+    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/d0221457-d94b-4a78-a53b-02208d039582.jpg',
+    rating: 4.8,
     reviews: [
-      { id: 5, author: 'Сергей', rating: 5, text: 'Отличный состав, приятный вкус. Результаты заметны!', date: '2025-10-12' },
-      { id: 6, author: 'Виктор', rating: 4, text: 'Хороший протеин, но цена могла бы быть ниже.', date: '2025-10-08' }
+      { id: 4, author: 'Сергей', rating: 5, text: 'Прочные, выдерживают любые нагрузки. Отличное качество!', date: '2025-10-22' },
+      { id: 5, author: 'Виктор', rating: 5, text: 'Носил в походе, ткань не порвалась. Рекомендую!', date: '2025-10-18' }
     ]
   },
   {
     id: 4,
-    name: 'Гантели разборные 2x20кг',
-    price: 5990,
-    category: 'Тренажёры',
-    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/a89cd6c8-37c0-4cf1-84bd-ff703954584a.jpg',
+    name: 'Куртка тактическая ARMOUR',
+    price: 7990,
+    category: 'Куртки',
+    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/ddf2d13a-ae9c-44d1-8fba-fc1c89b05fbc.jpg',
     rating: 4.9,
     reviews: [
-      { id: 7, author: 'Андрей', rating: 5, text: 'Качество металла отличное, легко регулируются.', date: '2025-10-22' }
+      { id: 6, author: 'Андрей', rating: 5, text: 'Лучшая куртка! Тепло, удобно, крепкая.', date: '2025-10-21' }
     ]
   },
   {
     id: 5,
-    name: 'Шорты тренировочные SPORT',
-    price: 1990,
-    category: 'Одежда',
-    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/13c59537-ce62-4615-96ef-3c3568ce48f5.jpg',
-    rating: 4.6,
+    name: 'Худи AGGRESSION',
+    price: 3990,
+    category: 'Толстовки',
+    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/4b3c47e2-e8f8-4a4c-a9f1-705d01adf58d.jpg',
+    rating: 4.7,
     reviews: [
-      { id: 8, author: 'Максим', rating: 5, text: 'Удобные, не стесняют движений. Рекомендую!', date: '2025-10-25' }
+      { id: 7, author: 'Михаил', rating: 5, text: 'Стильно и удобно, материал плотный!', date: '2025-10-19' }
     ]
   },
   {
     id: 6,
-    name: 'BCAA 300г',
-    price: 1490,
-    category: 'Спортивное питание',
-    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/ba811f91-c46b-4d96-a419-feefa168f03e.jpg',
+    name: 'Лонгслив POWER',
+    price: 2790,
+    category: 'Футболки',
+    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/13c59537-ce62-4615-96ef-3c3568ce48f5.jpg',
     rating: 4.8,
     reviews: [
-      { id: 9, author: 'Роман', rating: 5, text: 'Быстрое восстановление после тренировок!', date: '2025-10-19' }
+      { id: 8, author: 'Роман', rating: 5, text: 'Отличная вещь для тренировок и повседневки!', date: '2025-10-17' }
+    ]
+  },
+  {
+    id: 7,
+    name: 'Леггинсы компрессионные FLEX',
+    price: 2990,
+    category: 'Брюки',
+    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/d0221457-d94b-4a78-a53b-02208d039582.jpg',
+    rating: 4.6,
+    reviews: [
+      { id: 9, author: 'Алексей', rating: 4, text: 'Хорошая компрессия, удобно сидят.', date: '2025-10-16' }
+    ]
+  },
+  {
+    id: 8,
+    name: 'Ветровка спортивная STORM',
+    price: 5490,
+    category: 'Куртки',
+    image: 'https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/ddf2d13a-ae9c-44d1-8fba-fc1c89b05fbc.jpg',
+    rating: 4.9,
+    reviews: [
+      { id: 10, author: 'Владимир', rating: 5, text: 'Не промокает, отличная защита от ветра!', date: '2025-10-15' }
     ]
   }
 ];
@@ -263,7 +284,7 @@ export default function Index() {
               СИЛА И <span className="text-primary">АГРЕССИЯ</span>
             </h2>
             <p className="text-xl md:text-2xl mb-8 text-muted-foreground">
-              Экипировка для настоящих спортсменов
+              Одежда, которая выдерживает любое напряжение
             </p>
             <Button size="lg" className="text-lg px-8 hover-scale">
               <Icon name="ArrowRight" size={20} className="mr-2" />
@@ -409,11 +430,11 @@ export default function Index() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">О нас</h2>
             <p className="text-lg text-muted-foreground mb-4">
-              ВЕПРЬ — это бренд для тех, кто не идёт на компромиссы. Мы создаём экипировку и спортивное питание 
+              ВЕПРЬ — это бренд для тех, кто не идёт на компромиссы. Мы создаём одежду 
               для настоящих атлетов, которые знают цену силе и упорству.
             </p>
             <p className="text-lg text-muted-foreground">
-              Качество проверено временем, дизайн создан для победителей. Присоединяйся к нашей команде!
+              Наша одежда выдерживает любое напряжение. Качество проверено временем, дизайн создан для победителей. Присоединяйся к нашей команде!
             </p>
           </div>
         </div>
