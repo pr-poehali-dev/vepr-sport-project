@@ -253,7 +253,7 @@ export default function Index() {
       <section className="relative h-[600px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-background via-background/95 to-transparent z-10" />
         <img 
-          src="https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/a89cd6c8-37c0-4cf1-84bd-ff703954584a.jpg" 
+          src="https://cdn.poehali.dev/projects/06c5ae85-0134-420a-a9d5-3cf737c330b3/files/48827a88-2c96-43ff-a3c8-0371c2f54676.jpg" 
           alt="Hero" 
           className="absolute inset-0 w-full h-full object-cover"
         />
